@@ -52,9 +52,10 @@ for (name of stars){
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
-let s = stars
-while (s[0] < 6) {
-  console.log('Some stars using while:',s); s++;
+
+let i = 0;
+while (stars[i]) {
+  console.log('Some stars using while:', stars[i] ); i++;
 }
 
 
